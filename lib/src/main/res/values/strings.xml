@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lib</string>
+    <string name="chewy">fonts/Chewy.ttf</string>
+    <string name="covered">fonts/Covered.ttf</string>
+    <string name="gloria">fonts/Gloria.ttf</string>
+    <string name="indie">fonts/Indie.ttf</string>
+    <string name="josefin_b">fonts/JosefinBold.ttf</string>
+    <string name="josefin">fonts/Josefin.ttf</string>
+    <string name="kaushan">fonts/Kaushan.ttf</string>
+    <string name="lobster">fonts/Lobster.ttf</string>
+    <string name="monda">fonts/Monda.ttf</string>
+    <string name="quattrocento">fonts/Quattrocento.ttf</string>
+    <string name="satisfy">fonts/Satisfy.ttf</string>
+</resources>

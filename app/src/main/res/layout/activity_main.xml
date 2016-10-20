@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kangzayd.customfont.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Default"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom"
+        app:fontPath="@string/chewy"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font covered"
+        app:fontPath="@string/covered"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font gloria"
+        app:fontPath="@string/gloria"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font indie"
+        app:fontPath="@string/indie"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font josefin"
+        app:fontPath="@string/josefin"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font josefin Bold"
+        app:fontPath="@string/josefin_b"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font kaushan"
+        app:fontPath="@string/kaushan"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font lobster"
+        app:fontPath="@string/lobster"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font monda"
+        app:fontPath="@string/monda"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom Font quattrocento"
+        app:fontPath="@string/quattrocento"/>
+    <com.kangzayd.lib.CustomFontTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zayd Custom font satisfy"
+        app:fontPath="@string/satisfy"/>
+</LinearLayout>
